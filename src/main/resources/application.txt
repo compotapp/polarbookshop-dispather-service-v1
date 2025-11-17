@@ -1,0 +1,10 @@
+server:
+  port: 9003
+
+spring:
+  application:
+    name: dispatcher-service
+  cloud:
+    function:
+      #Определение функции, управляемой Spring Cloud Function, методы из DispatchingFunctions
+      definition: pack|label
